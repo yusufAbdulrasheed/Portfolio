@@ -1,0 +1,118 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pageSubtitle {
+  font-size: 1.125rem;
+  max-width: 700px;
+  text-align: center;
+  padding-top: 3rem;
+  margin: auto;
+  color: #bbbbbb;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.skillsSection {
+  padding: 2rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+}
+
+.skillsGroup {
+  margin-bottom: 2rem;
+}
+
+.groupTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.iconGrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.iconWrapper {
+  font-size: 3rem;
+  color: #555;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.iconWrapper:hover {
+  transform: scale(1.2);
+  color: #0070f3;
+}
+
+/* 📱 Responsive Adjustments */
+@media (max-width: 1024px) {
+  .pageSubtitle {
+    font-size: 1rem;
+    padding-top: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .groupTitle {
+    font-size: 1.25rem;
+  }
+
+  .iconWrapper {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 1.5rem;
+  }
+
+  .iconGrid {
+    gap: 1rem;
+  }
+
+  .iconWrapper {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageSubtitle {
+    font-size: 0.95rem;
+    padding-top: 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .groupTitle {
+    font-size: 1.1rem;
+  }
+
+  .iconGrid {
+    gap: 0.75rem;
+  }
+
+  .iconWrapper {
+    font-size: 2rem;
+  }
+}

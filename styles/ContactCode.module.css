@@ -64,4 +64,37 @@
   .line::before {
     font-size: 0.7rem;
   }
+  
+}
+
+.socialIcons {
+  display: flex;
+  gap: 30px; /* Increased from 20px to 30px */
+  align-items: center;
+  justify-content: center; /* or flex-start if you want left alignment */
+  flex-wrap: wrap;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 8px;
+  color: #64ffda; /* Your preferred color */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: rgba(100, 255, 218, 0.1); /* Optional background */
+}
+
+.socialIcon:hover {
+  color: #ffffff;
+  background-color: #64ffda;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 255, 218, 0.3);
+}
+
+.socialIcon:focus {
+  outline: 2px solid #64ffda;
+  outline-offset: 2px;
 }

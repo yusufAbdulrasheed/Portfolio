@@ -80,13 +80,17 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
 };
 
 export async function getStaticProps() {
-  const userRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`
-  );
+
+  const headers = {
+  Authorization: `token ${process.env.GITHUB_API_KEY}`,
+}
+  const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
+
+  const userRes = await fetch(`https://api.github.com/users/${username}`, { headers });
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=pushed&per_page=6`
+    `https://api.github.com/users/${username}/repos?sort=pushed&per_page=6`, { headers }
   );
   const repos = await repoRes.json();
 

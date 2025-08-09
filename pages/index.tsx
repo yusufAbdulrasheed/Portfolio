@@ -14,8 +14,8 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
+    { code: "    name: 'Abdulrasheed Yusuf',", type: 'array-item' },
+    { code: "    role: 'Software Developer',", type: 'array-item' },
     { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
@@ -91,14 +91,13 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Abdulrasheed <span className={styles.accentText}>Yusuf</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Software Developer</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            Turning caffeine into code ☕💻 | Full-stack sorcerer conjuring clean UIs and powerful APIs | Building tomorrow’s tech, one bug fix at a time 🚀
           </p>
 
           <div className={styles.actionLinks}>

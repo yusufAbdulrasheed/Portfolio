@@ -1,59 +1,79 @@
 import styles from '@/styles/ContactCode.module.css';
+import { 
+  FaInstagram, 
+  FaEnvelope, 
+  FaGithub, 
+  FaLinkedin, 
+  FaTwitter, 
+  FaFacebook,
+  FaWhatsapp,
+  FaYoutube
+} from 'react-icons/fa';
+
 
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    href: 'https://www.instagram.com/code_with_rash',
+    icon: FaInstagram,
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    href: 'mailto:yusufabdulrasheed200@gmail.com',
+    icon: FaEnvelope,
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    href: 'https://github.com/yusufAbdulrasheed',
+    icon: FaGithub,
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    href: 'https://www.linkedin.com/in/yusuf-abdulrasheed-adinoyi/',
+    icon: FaLinkedin,
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    href: 'https://x.com/iamAdinoyi',
+    icon: FaTwitter,
   },
   {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    social: 'facebook',
+    href: 'https://www.facebook.com/share/16ovynUSw6/',
+    icon: FaFacebook,
   },
   {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: 'whatsapp',
+    href: 'https://wa.me/qr/ECRGPQ26EJQ2F1',
+    icon: FaWhatsapp,
+  },
+
+  {
+    social: 'Youtube',
+    href: 'https://www.youtube.com/@codewith_rash',
+    icon: FaYoutube
   },
 ];
 
 const ContactCode = () => {
   return (
-    <div className={styles.code}>
-      <p className={styles.line}>
-        <span className={styles.className}>.socials</span> &#123;
-      </p>
-      {contactItems.map((item, index) => (
-        <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;{item.social}:{' '}
-          <a href={item.href} target="_blank" rel="noopener">
-            {item.link}
+    <div className={styles.socialIcons}>
+      {contactItems.map((item, index) => {
+        const IconComponent = item.icon;
+        return (
+          <a 
+            key={index}
+            href={item.href} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={styles.socialIcon}
+            title={`Visit my ${item.social}`}
+            aria-label={`Visit my ${item.social}`}
+          >
+            <IconComponent size={24} />
           </a>
-          ;
-        </p>
-      ))}
-      <p className={styles.line}>&#125;</p>
+        );
+      })}
     </div>
   );
 };

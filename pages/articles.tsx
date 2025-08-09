@@ -11,11 +11,11 @@ interface ArticlesPageProps {
 const ArticlesPage = ({ articles }: ArticlesPageProps) => {
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>My Articles</h1>
+      <h1 className={styles.pageTitle}>Blog Post</h1>
       <p className={styles.pageSubtitle}>
         Recent posts from{' '}
         <a
-          href="https://dev.to/itsnitinr"
+          href="https://dev.to/yusuf_ab"
           target="_blank"
           rel="noopener"
           className={styles.underline}

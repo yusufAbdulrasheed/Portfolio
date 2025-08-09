@@ -1,155 +1,129 @@
-/* GitHub Dark */
 :root {
-  --main-bg: #24292e;
-  --bg-text: rgba(56, 58, 61, 0.35);
-  --text-color: #efefef;
-  --accent-color: #f9826c;
-  --titlebar-bg: #1f2428;
-  --sidebar-bg: #24292e;
-  --sidebar-hover-bg: #1f2428;
-  --explorer-bg: #1f2428;
-  --explorer-hover-bg: #24292e;
-  --explorer-border: #161a1d;
-  --tabs-bg: #1f2428;
-  --tab-bg: #1f2428;
-  --tab-active-bg: #24292e;
-  --tab-border: #24292e;
-  --bottombar-bg: #24292e;
-  --bottombar-border: #1b1f23;
-  --button-bg: #176f2c;
-  --button-text: #dcffe4;
-  --bottombar-hover-bg: #4f4f52;
-  --scrollbar-track-bg: #24292e;
-  --scrollbar-thumb-bg: #333536;
-  --article-bg: #1f2428;
+  --main-bg: #263238; 
+  --bg-text: rgba(38, 50, 56, 0.4);
+  --text-color: #eeffff;
+  --accent-color: #82aaff; 
+  --titlebar-bg: #1e272c;
+  --sidebar-bg: #2f3d44;
+  --sidebar-hover-bg: #37474f;
+  --explorer-bg: #2f3d44;
+  --explorer-hover-bg: #37474f;
+  --explorer-border: #455a64;
+  --tabs-bg: #2f3d44;
+  --tab-bg: #37474f;
+  --tab-active-bg: #455a64;
+  --tab-border: #455a64;
+  --bottombar-bg: #2f3d44;
+  --bottombar-border: #455a64;
+  --bottombar-hover-bg: #546e7a;
+  --button-bg: #82aaff;
+  --button-text: #1e272c;
+  --scrollbar-track-bg: #2f3d44;
+  --scrollbar-thumb-bg: #546e7a;
+  --article-bg: #263238;
 }
 
-/* Dracula */
-[data-theme='dracula'] {
-  --main-bg: #282a36;
-  --bg-text: #313340;
-  --text-color: #efefef;
-  --accent-color: #bd93f9;
-  --titlebar-bg: #1e1f29;
-  --sidebar-bg: #343746;
-  --sidebar-hover-bg: #3c3d51;
-  --explorer-bg: #21222c;
-  --explorer-hover-bg: #313241;
-  --explorer-border: #161a1d;
-  --tabs-bg: #191a21;
-  --tab-bg: #21222c;
-  --tab-active-bg: #282a36;
-  --tab-border: #191a21;
-  --bottombar-bg: #191a21;
-  --bottombar-border: #191a21;
-  --button-bg: #44475a;
-  --button-text: #f8f8f2;
-  --bottombar-hover-bg: #4f4f52;
-  --scrollbar-track-bg: #282a36;
-  --scrollbar-thumb-bg: #454647;
-  --article-bg: #21222c;
-}
 
-/* Ayu Dark */
-[data-theme='ayu-dark'] {
-  --main-bg: #0a0e14;
-  --bg-text: #101620;
-  --text-color: #efefef;
-  --accent-color: #e6b450;
-  --titlebar-bg: #1f2428;
-  --sidebar-bg: #0a0e14;
-  --sidebar-hover-bg: #00010a;
-  --explorer-bg: #0a0e14;
-  --explorer-hover-bg: #00010a;
-  --explorer-border: transparent;
-  --tabs-bg: #0a0e14;
-  --tab-bg: #0a0e14;
-  --tab-active-bg: #0a0e14;
+/* Electric Purple */
+[data-theme='electric-purple'] {
+  --main-bg: #1a1523;
+  --bg-text: #231b31;
+  --text-color: #f2e8ff;
+  --accent-color: #9d4edd;
+  --titlebar-bg: #140e1d;
+  --sidebar-bg: #1a1523;
+  --sidebar-hover-bg: #241c32;
+  --explorer-bg: #1a1523;
+  --explorer-hover-bg: #241c32;
+  --explorer-border: #32294a;
+  --tabs-bg: #1a1523;
+  --tab-bg: #1e192a;
+  --tab-active-bg: #2b2240;
   --tab-border: transparent;
-  --bottombar-bg: #0a0e14;
+  --bottombar-bg: #2b2240;
   --bottombar-border: transparent;
-  --button-bg: #e6b450;
-  --button-text: #0a0e14;
-  --bottombar-hover-bg: #4f4f52;
-  --scrollbar-track-bg: #0a0e14;
-  --scrollbar-thumb-bg: #454647;
-  --article-bg: #10121a;
+  --button-bg: #9d4edd;
+  --button-text: #f2e8ff;
+  --bottombar-hover-bg: #3d2f57;
+  --scrollbar-track-bg: #1a1523;
+  --scrollbar-thumb-bg: #5a3f84;
+  --article-bg: #221b32;
 }
 
-/* Ayu Mirage */
-[data-theme='ayu-mirage'] {
-  --main-bg: #1f2430;
-  --bg-text: #21242b;
-  --text-color: #efefef;
-  --accent-color: #e6b450;
-  --titlebar-bg: #1f2428;
-  --sidebar-bg: #1f2430;
-  --sidebar-hover-bg: #191e2a;
-  --explorer-bg: #1f2430;
-  --explorer-hover-bg: #191e2a;
-  --explorer-border: transparent;
-  --tabs-bg: #1f2430;
-  --tab-bg: #1f2430;
-  --tab-active-bg: #1f2430;
+/* Neon Blue */
+[data-theme='neon-blue'] {
+  --main-bg: #0a0f1c;
+  --bg-text: #10182a;
+  --text-color: #e6f7ff;
+  --accent-color: #00eaff;
+  --titlebar-bg: #080c15;
+  --sidebar-bg: #0a0f1c;
+  --sidebar-hover-bg: #111a2e;
+  --explorer-bg: #0a0f1c;
+  --explorer-hover-bg: #111a2e;
+  --explorer-border: #15314f;
+  --tabs-bg: #0a0f1c;
+  --tab-bg: #0d1424;
+  --tab-active-bg: #15233d;
   --tab-border: transparent;
-  --bottombar-bg: #1f2430;
+  --bottombar-bg: #15233d;
   --bottombar-border: transparent;
-  --button-bg: #e6b450;
-  --button-text: #1f2430;
-  --bottombar-hover-bg: #4f4f52;
-  --scrollbar-track-bg: #1f2430;
-  --scrollbar-thumb-bg: #454647;
-  --article-bg: #252e3d;
+  --button-bg: #00eaff;
+  --button-text: #0a0f1c;
+  --bottombar-hover-bg: #1d3357;
+  --scrollbar-track-bg: #0a0f1c;
+  --scrollbar-thumb-bg: #0fd3e7;
+  --article-bg: #0e172a;
 }
 
-/* Nord */
-[data-theme='nord'] {
-  --main-bg: #2e3440;
-  --bg-text: #3b414d;
-  --text-color: #efefef;
-  --accent-color: #88c0d0;
-  --titlebar-bg: #1f2428;
-  --sidebar-bg: #2e3440;
-  --sidebar-hover-bg: #434c5e;
-  --explorer-bg: #2e3440;
-  --explorer-hover-bg: #434c5e;
-  --explorer-border: rgba(136, 192, 208, 0.2);
-  --tabs-bg: #2e3440;
-  --tab-bg: #2e3440;
-  --tab-active-bg: #3b4252;
+/* Sunset Glow */
+[data-theme='sunset-glow'] {
+  --main-bg: #1e1410;
+  --bg-text: #2a1a15;
+  --text-color: #fff3e6;
+  --accent-color: #ff914d;
+  --titlebar-bg: #170f0b;
+  --sidebar-bg: #1e1410;
+  --sidebar-hover-bg: #291d18;
+  --explorer-bg: #1e1410;
+  --explorer-hover-bg: #291d18;
+  --explorer-border: #3a251d;
+  --tabs-bg: #1e1410;
+  --tab-bg: #241a15;
+  --tab-active-bg: #3a251d;
   --tab-border: transparent;
-  --bottombar-bg: #3b4252;
+  --bottombar-bg: #3a251d;
   --bottombar-border: transparent;
-  --button-bg: #434c5e;
-  --button-text: #d8dee9;
-  --bottombar-hover-bg: #4f4f52;
-  --scrollbar-track-bg: #2e3440;
-  --scrollbar-thumb-bg: #454647;
-  --article-bg: #363f50;
+  --button-bg: #ff914d;
+  --button-text: #1e1410;
+  --bottombar-hover-bg: #50352b;
+  --scrollbar-track-bg: #1e1410;
+  --scrollbar-thumb-bg: #ffb17a;
+  --article-bg: #261a14;
 }
 
-/* Night Owl */
-[data-theme='night-owl'] {
-  --main-bg: #011627;
-  --bg-text: #031d33;
-  --text-color: #89a4bb;
-  --accent-color: rgb(95, 126, 151);
-  --titlebar-bg: #011627;
-  --sidebar-bg: #011627;
-  --sidebar-hover-bg: #0e293f;
-  --explorer-bg: #011627;
-  --explorer-hover-bg: #0e293f;
-  --explorer-border: transparent;
-  --tabs-bg: #011627;
-  --tab-bg: #01111d;
-  --tab-active-bg: #0b2942;
-  --tab-border: rgb(39, 43, 59);
-  --bottombar-bg: #011627;
-  --bottombar-border: #262a39;
-  --button-bg: rgb(95, 126, 151);
-  --button-text: #fff;
-  --bottombar-hover-bg: #1b222f;
-  --scrollbar-track-bg: #011627;
-  --scrollbar-thumb-bg: #043254;
-  --article-bg: #031d33;
+/* Emerald Glow */
+[data-theme='emerald-glow'] {
+  --main-bg: #0d1a16;
+  --bg-text: #14241e;
+  --text-color: #e6fff6;
+  --accent-color: #2be4ac;
+  --titlebar-bg: #0a1410;
+  --sidebar-bg: #0d1a16;
+  --sidebar-hover-bg: #152c24;
+  --explorer-bg: #0d1a16;
+  --explorer-hover-bg: #152c24;
+  --explorer-border: #1f4b3f;
+  --tabs-bg: #0d1a16;
+  --tab-bg: #11241d;
+  --tab-active-bg: #1c3b31;
+  --tab-border: transparent;
+  --bottombar-bg: #1c3b31;
+  --bottombar-border: transparent;
+  --button-bg: #2be4ac;
+  --button-text: #0d1a16;
+  --bottombar-hover-bg: #255346;
+  --scrollbar-track-bg: #0d1a16;
+  --scrollbar-thumb-bg: #32ffc1;
+  --article-bg: #14241e;
 }

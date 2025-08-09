@@ -16,31 +16,25 @@ const SettingsPage = () => {
           name="Dracula"
           icon="/themes/dracula.png"
           publisher="Dracula Theme"
-          theme="dracula"
+          theme="electric-purple"
         />
         <ThemeInfo
           name="Ayu Dark"
           icon="/themes/ayu.png"
           publisher="teabyii"
-          theme="ayu-dark"
+          theme="neon-blue"
         />
         <ThemeInfo
           name="Ayu Mirage"
           icon="/themes/ayu.png"
           publisher="teabyii"
-          theme="ayu-mirage"
+          theme="sunset-glow"
         />
         <ThemeInfo
           name="Nord"
           icon="/themes/nord.png"
           publisher="arcticicestudio"
-          theme="nord"
-        />
-        <ThemeInfo
-          name="Night Owl"
-          icon="/themes/night-owl.png"
-          publisher="sarah.drasner"
-          theme="night-owl"
+          theme="emerald-glow"
         />
       </div>
     </div>
