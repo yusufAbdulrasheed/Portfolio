@@ -16,7 +16,7 @@ export const projects: Project[] = [
     slug: 'Todo_Api',
   },
   {
-    title: 'Dawn Talent',
+    title: 'Dawn Talent Api',
     description:
       'A platform to connect developers with companies looking for talent.',
     logo: '/logos/vsc.svg',
