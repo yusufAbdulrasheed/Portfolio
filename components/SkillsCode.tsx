@@ -1,6 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker, FaAws, FaFigma } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiNextdotjs, SiMongodb, SiExpress, SiPostman, SiPostgresql, SiMysql, SiCanva } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiNextdotjs, SiMongodb, SiExpress, SiPostman, SiPostgresql, SiMysql, SiCanva, SiSwagger, SiGithub, SiGithubactions } from 'react-icons/si';
 import styles from '@/styles/SkillSection.module.css';
+import { DiRedis } from 'react-icons/di';
 
 const SkillsSection = () => {
   const frontendSkills = [
@@ -17,7 +18,9 @@ const SkillsSection = () => {
     { icon: <SiExpress />, name: 'Express.js' },
     { icon: <SiMongodb />, name: 'MongoDB' },
     { icon: <SiPostgresql />, name: 'PostgreSQL'},
-    { icon: <SiMysql />, name: 'MySQL'}
+    { icon: <SiMysql />, name: 'MySQL'},
+    { icon: <DiRedis/>, name: 'Redis'},
+    { icon: <SiTypescript />, name: 'TypeScript' }
   ];
 
   const techTools = [
@@ -25,7 +28,10 @@ const SkillsSection = () => {
     { icon: <FaAws />, name: 'AWS' },
     { icon: <SiPostman />, name: 'Postman' },
     { icon: <FaFigma />, name: 'Figma' },
-    { icon: <SiCanva />, name: 'Canva' }
+    { icon: <SiCanva />, name: 'Canva' },
+    { icon: <SiSwagger />, name: 'Swagger'},
+    { icon: <SiGithub />, name: 'Github'},
+    { icon: <SiGithubactions />, name: 'Githubactions'}
   ];
 
   return (
